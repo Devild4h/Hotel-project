@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif ;
+    font-weight: bold;
+}
+/* start header */
+.container{
+    width: 80%;
+    margin: auto;
+ 
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 16px;
+}
+.navbar ul li a:hover {
+    color: #ffdb51;
+    background-color: #444444;
+  }
+nav{
+    padding: 14px;
+    background: #222222;
+}
+.logo h3{
+    color: white;
+
+}
+.navbar {
+    position: relative;
+    float: right;
+    top: -20px;
+  }
+  .navbar ul li {
+    float: left;
+  }
+  /* finsh header */
+  /* start page home */
+  #section1{
+    background-image: url(../images/room.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+  }
+  span{
+    color: #ffdb51;
+  }
+ #section1 div h1{
+    color: white;
+    padding-top: 180px;
+    font-size: 50px;
+ }
+ #section1 div p{
+    color: white;
+    padding: 15px;
+
+ }
+ #section1 div button{
+    background-color: #222222;
+    color: rgb(176, 174, 174);
+    padding: 10px 20px;
+    
+ }
+ #section2{
+    display: flex;
+    height: 400px;
+ }
+ .img1{
+    
+    width:calc(100%/2); 
+ }
+ .par1{
+    width: calc(100%/2);
+    text-align: center;
+    background-color: #222222;
+   
+    
+ }
+ .img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .par1 h2 {
+    padding-top:50px ;
+    color: white;
+ }
+.par1 p{
+    
+    color: #b7b1b1;
+   padding: 20px 0;
+    word-spacing: 2px;
+    line-height: 1.8;
+    
+} 
+.par1 button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#section3 {
+    
+    height: 250px;
+    display: flex;
+  }
+  
+  .location {
+    padding-top: 60px;
+    text-align: center;
+    width: calc(100% / 3);
+  }
+  
+  .foods {
+    text-align: center;
+    padding-top: 60px;
+    background-color: #f7c08a;
+    width: calc(100% / 3);
+  }
+  
+  .gym {
+    text-align: center;
+    padding-top: 60px;
+    width: calc(100% / 3);
+  }
+/* end page home */
+/* start page About */
+.aboutHotel img {
+  float: right;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: -180px;
+}
+#About h1{
+  padding-top: 30px;
+}
+.aboutHotel p{
+  word-spacing: 2px;
+  line-height: 1.8;
+}
+#centerpage{
+  background-image: url(../images/hotelbuilding1.jpg);
+  margin-top: 120px;
+  height: 500px;
+}
+#centerpage h2 {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+.man{
+  background-color: #f7c08a;
+  height: 120px;
+  
+}
+.man img{
+  float: left;
+  border-radius: 50%;
+  padding: 10px;
+}
+.man p {
+  position: relative;
+  padding-top: 35px;
+}
+.girl{
+  background-color: #f7c08a;
+  height: 120px;
+  margin-top: 50px; 
+}
+.girl img{
+  float: left;
+  border-radius: 50%;
+  padding: 10px;
+}
+.girl p {
+  position: relative;
+  padding-top: 35px;
+}
+/* end page about */
+/* start page contenet */
+#contact h1{
+  font-size: 50px;
+  margin: 10px 0;
+}
+#contact label{
+  display: block;
+  margin: 15px 0 2px 0;
+}
+#contact input{
+  width: 99%;
+  height: 30px;
+}
+.massage textarea{
+  width: 99%;
+}
+#contact button{
+  background-color: black;
+  color: rgb(183, 174, 174);
+  margin: 15px 0;
+  width: 80px;
+  height: 40px;
+}
+#icons{
+  display: flex;
+  background-color: #222222;
+  height: 200px;
+
+} 
+
+.location1{
+ 
+  width: calc(100%/3);
+  margin-left: 50px;
+  margin-top: 40px;
+  text-align: center;
+  
+ 
+ 
+  
+}
+.phone{
+  
+  margin-top: 40px;
+width: calc(100%/3);
+margin-left: -30px;
+margin-right: -30px;
+text-align: center;
+  
+}
+.email{
+  
+  margin-top: 40px;
+width: calc(100%/3);
+margin-right: 50px;
+text-align: center;
+
+  
+}
+#icons h3 {
+  color: white;
+  padding-top: 10px;
+}
+
+#icons p{
+  color: #b7b1b1;
+  padding-top: 10px;
+}
+/* end page contenet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* stat footer  */
+
+  footer {
+    padding: 25px;
+    background: #444444;
+  }
+  
+  footer p {
+    text-align: center;
+    color: #cccccc;
+  }
+  /* end footer */
+
